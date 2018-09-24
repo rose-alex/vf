@@ -2,23 +2,25 @@ body {
 	font-family:"Tahoma", Geneva, sans-serif;
 }
 
-div.maincontent {
-		padding: 3% 25% 3% 25%;
+#maincontent {
+	padding: 0% 20% 0% 20%;
 }
 
-div.navigation {
-		background-color:black;
-		color:white;
-		font-size:20px;
-		margin-left:20%;
-		margin-right:20%;
-		
+#navblock {
+	background-color:lightblue;
+	margin: 0% 10% 0% 10%;
+	link-color:white;
+	font-size:20px;
+	text-decoration: none;
+	text-align: center;
+
 }
 
-ul.navigation-list {
-		list-style-type:none;
-		display: flex;
-		list-style:none;
-		text-decoration:none;
-		
+#navblock a:link {
+	color:white;
+	text-decoration: none;	
+}
+
+td.navtabs {
+	width:33%;
 }
