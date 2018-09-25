@@ -2,25 +2,42 @@ body {
 	font-family:"Tahoma", Geneva, sans-serif;
 }
 
-#maincontent {
-	padding: 0% 20% 0% 20%;
+.navblock {
+	height:50px;
+	width:80%;
+	background-color:black;
+	margin: 2% 10% 0% 10%;
+	
 }
 
-#navblock {
-	background-color:lightblue;
-	margin: 0% 10% 0% 10%;
-	link-color:white;
+.navtab {
+	width:30%;
+	padding:5px;
+	float:left;
+	margin-top:5px;
 	font-size:20px;
-	text-decoration: none;
-	text-align: center;
-
+	text-align:center;
 }
 
-#navblock a:link {
+.maincontent {
+	margin: 0% 20% 0% 20%;
+}
+
+a.navlink:link {
+	color:white;
+	text-decoration: none;
+	
+}
+
+a.navlink:visited {
 	color:white;
 	text-decoration: none;	
 }
 
-td.navtabs {
-	width:33%;
+a.navlink:hover {
+	font-size:24px;
+}
+
+a.navlink:active {
+	color:lightgreen;
 }
