@@ -4,26 +4,30 @@ body {
 
 .navblock {
 	height:50px;
-	width:80%;
+	width:70%;
 	background-color:black;
-	margin: 3% 10% 0% 10%;
+	margin: 0% 10% 0% 10%;
+	display:flex;
+	
+	justify-content:left;
 	
 }
 
 .navtab {
-	width:29%;
-	padding:6px;
-	float:left;
-	margin-top:5px;
+	width:30%;
+	padding:10px;
 	font-size:1.25em;
 	text-align:center;
 	list-style-type:none;
+	background-color:blue;
+	border-style:solid;
+	border-color:red;
+	border-width:thin;
 }
 
 .navbanner {
 	width:100%;
-	opacity:0.6;
-	position:static;
+
 }
 
 .maincontent {
